@@ -10,7 +10,7 @@ So you can create images like this: \
 ![exp_output_img.](photos/exp_output_img.png?raw=true "Example Output Images")
 
 Which can be further processed to: \
-![Example of aligned images in photogrammetry tool.](photos/photos_aligned_in_photogrammetry_tool2.png?raw=true "Example of aligned images in photogrammetry tool")
+![Example of aligned images in photogrammetry tool.](photos/photos_aligned_in_photogrammetry_tool.png?raw=true "Example of aligned images in photogrammetry tool")
 
 and: \
 ![3D_obj.](photos/3D_obj.png?raw=true "3D_obj.png")
