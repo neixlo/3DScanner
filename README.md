@@ -77,7 +77,7 @@ conda activate YOUR_ENV_NAME
 
 Run python interpreter.
 ```
-pyhton
+python
 ```
 
 Import the scanner class an make an 
