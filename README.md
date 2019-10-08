@@ -1,13 +1,19 @@
 # SemiSynthDataset_ObjScan
 Automated process of shooting photos and rotate a turntable/lazysusan to get images in a 360°/steps view. A 3D object can then be generated with a photogrammetry tool such as Agisoft PhotoScan/Metashape. 
 
+## What is this for?
+
+This repo contains code an information to setup an automated turntable to make photos in certain steps once around an object.
+Its especially usefull for photogrammetry tasks where you'll need lots of photos once anround an object. With the option of multiple photo positions and a background photo, the workflow is opimized to work with photogrammetry tools like Agisofts PhotoScan/Metashape.
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Needed Hardware and its setup is described below. The system is expected to be Linux (just tested with Linux Mint 18.3).
 
 #### Hardware
 
@@ -41,7 +47,62 @@ Except of
 
 3. The switches all are OFF but **_switch 4 is ON_**
 
-#### Software 
+### Installing
 
-**_TBD_**
+This installing instruction is made with anaconda.
+Open an terminal in the cloned directory and run following comands.
 
+Create an conda environment.
+```
+conda create -n YOUR_ENV_NAME python=3.6.0
+```
+
+Activate your new environment.
+```
+conda activate YOUR_ENV_NAME
+```
+
+Install the needed requirements.
+```
+pip install -r requirements.txt
+```
+
+
+### Usage
+
+Activate your new environment.
+```
+conda activate YOUR_ENV_NAME
+```
+
+Run python interpreter.
+```
+pyhton
+```
+
+Import the scanner class an make an 
+```
+import scanner
+sc = scanner.scanner()
+```
+
+Do a test shot.
+```
+sc.cam_shot('filepath_to_save_in', 'filename')
+```
+
+Rotate turntable/steper and shoot photos of 360° in 30° steps.
+You'll be ask to type in a _scanning position_, if you want an _background image_, etc.
+```
+sc.scan_process('filepath_to_save_in', 'name_of_object', 30)
+```
+
+
+## Support
+
+This code is not supported. Feel free to help yourself.
+
+
+## License
+
+This project is licensed under the GNU General Public License version 3 - see the [LICENSE.md](LICENSE.md) file for details.
