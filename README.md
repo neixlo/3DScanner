@@ -6,6 +6,15 @@ Automated process of shooting photos and rotate a turntable/lazysusan to get ima
 This repo contains code an information to setup an automated turntable to make photos in certain steps once around an object.
 Its especially usefull for photogrammetry tasks where you'll need lots of photos once anround an object. With the option of multiple photo positions and a background photo, the workflow is opimized to work with photogrammetry tools like Agisofts PhotoScan/Metashape.
 
+So you can create images like this: \
+![exp_output_img.](photos/exp_output_img.png?raw=true "Example Output Images")
+
+Which can be further processed to: \
+![Example of aligned images in photogrammetry tool.](photos/photos_aligned_in_photogrammetry_tool2.png?raw=true "Example of aligned images in photogrammetry tool")
+
+and: \
+![3D_obj.](photos/3D_obj.png?raw=true "3D_obj.png")
+
 
 ## Getting Started
 
@@ -96,6 +105,12 @@ You'll be ask to type in a _scanning position_, if you want an _background image
 ```
 sc.scan_process('filepath_to_save_in', 'name_of_object', 30)
 ```
+The generated output should be images saved under a diffrent paths which are sorted after their view/camera position (e.g. upside, topview, ...).
+
+If you gather 2x 360° runs (_scan_process('path', 'apple', 18)_) of photos in 18° steps, you'll get 2x 20 images as output.
+This output can be aligned in a photogrammetry tool and potentially look like this. 
+
+![photos_aligned_in_photogrammetry_tool_2layers.](photos/photos_aligned_in_photogrammetry_tool_2layers.png?raw=true "photos_aligned_in_photogrammetry_tool_2layers")
 
 
 ## Support
