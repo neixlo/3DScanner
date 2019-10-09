@@ -39,7 +39,7 @@ Setup as described in:
 https://www.hackster.io/ashleyblack/tb6600-stepper-motor-driver-tester-85a29e
 
 Except of 
-1. That I used an Arduino UNO and therfore the code **_TB6600_Step_Driver.ino_** changed.
+1. That I used an Arduino UNO and therfore the code **[TB6600_Step_Driver.ino](TB6600_Step_Driver.ino)** changed.
 2. The wiring of the driver stage is changing accordingly: \
 **_ENA-_** --- to ---	ArduinoUNO  **_GND_** \
 **_ENA+_** --- to ---	ArduinoUNO  **_Pin2** \
@@ -113,6 +113,10 @@ This output can be aligned in a photogrammetry tool and potentially look like th
 ![photos_aligned_in_photogrammetry_tool_2layers.](photos/photos_aligned_in_photogrammetry_tool_2layers.png?raw=true "photos_aligned_in_photogrammetry_tool_2layers")
 
 
+### Example
+You can find an example scannning process in the JupyterLab Notebook under [/main/scanning_exp_pear.ipynb](/main/scanning_exp_pear.ipynb).
+
+
 ## Support
 
 This code is not supported. Feel free to help yourself.
@@ -120,4 +124,4 @@ This code is not supported. Feel free to help yourself.
 
 ## License
 
-This project is licensed under the GNU General Public License version 3 - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU General Public License version 3 - see the [LICENSE](LICENSE) file for details.
