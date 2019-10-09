@@ -6,6 +6,9 @@ Automated process of shooting photos and rotate a turntable/lazysusan to get ima
 This repo contains code an information to setup an automated turntable to make photos in certain steps once around an object.
 Its especially usefull for photogrammetry tasks where you'll need lots of photos once anround an object. With the option of multiple photo positions and a background photo, the workflow is opimized to work with photogrammetry tools like Agisofts PhotoScan/Metashape.
 
+So you can create images like this: \
+![exp_imgs.](photos/exp_imgs.png?raw=true "Example Output Images")
+
 Which can be further processed to: \
 ![Example of aligned images in photogrammetry tool.](photos/photos_aligned_in_photogrammetry_tool.png?raw=true "Example of aligned images in photogrammetry tool")
 
