@@ -39,7 +39,7 @@ Setup as described in:
 https://www.hackster.io/ashleyblack/tb6600-stepper-motor-driver-tester-85a29e
 
 Except of 
-1. That I used an Arduino UNO and therfore the code **[TB6600_Step_Driver.ino](TB6600_Step_Driver.ino)** changed.
+1. That I used an Arduino UNO and therfore the code **[/main/TB6600_Step_Driver.ino](/main/TB6600_Step_Driver.ino)** changed.
 2. The wiring of the driver stage is changing accordingly: \
 **_ENA-_** --- to ---	ArduinoUNO  **_GND_** \
 **_ENA+_** --- to ---	ArduinoUNO  **_Pin2** \
