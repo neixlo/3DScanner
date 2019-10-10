@@ -10,7 +10,7 @@ So you can create images like this: \
 ![exp_imgs.](photos/exp_imgs.png?raw=true "Example Output Images")
 
 Which can be further processed to:\
-<img src="photos/photos_aligned_in_photogrammetry_tool.png" width="45%" height="45%">  <img src="photos/3D_obj.png" width="30%" height="30%">
+<img src="photos/photos_aligned_in_photogrammetry_tool.png" width="45%" height="45%">  <img src="photos/3D_obj.png" width="30.5%" height="30.5%">
 
 
 ## Getting Started
@@ -119,7 +119,7 @@ You can find an example scannning process in the JupyterLab Notebook under [/mai
 2. Do a lot of photos from every possible angel an view point.
 3. Setup a perfect lightning an really avoid any shadows, especially at the point of contact from object to surface.
 
-<img src="photos/exp_pear_1.png" width="35%" height="35%"> <img src="photos/aligned_photos_pear_1.png" width="35%" height="35%">
+<img src="photos/exp_pear_1.png" width="39%" height="39%"> <img src="photos/aligned_photos_pear_1.png" width="35%" height="35%">
 
 ## Support
 
