@@ -116,6 +116,17 @@ This output can be aligned in a photogrammetry tool and potentially look like th
 ### Example
 You can find an example scannning process in the JupyterLab Notebook under [/main/scanning_exp_pear.ipynb](/main/scanning_exp_pear.ipynb).
 
+## Best Practices
+
+1. Use feature richt Objects (e.g. featureless is a unicolor symetrical object).
+2. Do a lot of photos from every possible angel an view point.
+3. Setup a perfect lightning an really avoid any shadows, especially at the point of contact from object to surface.
+
+![exp_pear_1.png.](photos/exp_pear_1.png?raw=true "example of a pear standing upright on a cone")
+
+![aligned_photos_pear_1.png.](photos/aligned_photos_pear_1.png?raw=true "example aligned photos in photoscan")
+ 	
+
 
 ## Support
 
@@ -125,3 +136,17 @@ This code is not supported. Feel free to help yourself.
 ## License
 
 This project is licensed under the GNU General Public License version 3 - see the [LICENSE](LICENSE) file for details.
+
+\
+\
+\
+\
+\
+\
+## Further Steps
+
+
+### Create an 3D Object with PhotoScan
+
+
+
