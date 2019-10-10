@@ -9,11 +9,8 @@ Its especially usefull for photogrammetry tasks where you'll need lots of photos
 So you can create images like this: \
 ![exp_imgs.](photos/exp_imgs.png?raw=true "Example Output Images")
 
-Which can be further processed to: \
-![Example of aligned images in photogrammetry tool.](photos/photos_aligned_in_photogrammetry_tool.png?raw=true "Example of aligned images in photogrammetry tool")
-
-and: \
-![3D_obj.](photos/3D_obj.png?raw=true "3D_obj.png")
+Which can be further processed to:\
+<img src="photos/photos_aligned_in_photogrammetry_tool.png" width="45%" height="45%">  <img src="photos/3D_obj.png" width="30%" height="30%">
 
 
 ## Getting Started
@@ -122,11 +119,7 @@ You can find an example scannning process in the JupyterLab Notebook under [/mai
 2. Do a lot of photos from every possible angel an view point.
 3. Setup a perfect lightning an really avoid any shadows, especially at the point of contact from object to surface.
 
-![exp_pear_1.png.](photos/exp_pear_1.png?raw=true "example of a pear standing upright on a cone")
-
-![aligned_photos_pear_1.png.](photos/aligned_photos_pear_1.png?raw=true "example aligned photos in photoscan")
- 	
-
+<img src="photos/exp_pear_1.png" width="35%" height="35%"> <img src="photos/aligned_photos_pear_1.png" width="35%" height="35%">
 
 ## Support
 
