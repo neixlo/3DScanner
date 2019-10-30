@@ -130,16 +130,5 @@ This code is not supported. Feel free to help yourself.
 
 This project is licensed under the GNU General Public License version 3 - see the [LICENSE](LICENSE) file for details.
 
-\
-\
-\
-\
-\
-\
-## Further Steps
-
-
-### Create an 3D Object with PhotoScan
-
 
 
